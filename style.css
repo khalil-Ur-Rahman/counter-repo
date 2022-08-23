@@ -1,0 +1,34 @@
+body{
+    background-color: chocolate;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 40px;
+    color: whitesmoke;
+}
+.counter-card{
+    background-color: rgb(96, 110, 110);
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+button{
+    padding: 12px 24px;
+    margin: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    
+}
+button:hover{
+    color: blueviolet;
+    background-color: rgb(231, 169, 130);
+    transition: all 0.4s ease-in;
+}
